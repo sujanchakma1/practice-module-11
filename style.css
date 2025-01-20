@@ -155,6 +155,29 @@ header,main, footer{
   padding: 10px 24px;
 
 }
+/* Influencer-product styles */
+.Influencer-product{
+  width: 1450px;
+  background-color: #0A0826;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 100px;
+}
+.Influencer-product-1{
+  color: white;
+}
+.logo{
+  background-color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.logo-1{
+  margin: 0 632px;
+  margin-left: 640px;
+}
 /* Responsive for mobile */
 @media screen and (max-width:576px) {
   
@@ -215,4 +238,12 @@ header,main, footer{
     width: 300px;
     margin-left: 30px;
   }
-}
+  .Influencer-product{
+    width: 395px;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .logo-1{
+    margin: 0 121px;
+  }
